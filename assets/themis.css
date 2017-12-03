@@ -43,11 +43,12 @@
 
 /* Content css */
 .content {
-  font-size: 15px;
+  font-size: 25px;
   color: #868b8e; }
+  .content h3 {
+    font-size: 30px; }
   .content .description {
     line-height: 40px;
-    font-size: 25px;
     margin: 25px 0px;
     text-align: justify; }
 
