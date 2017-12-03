@@ -44,9 +44,11 @@
 /* Content css */
 .content {
   font-size: 25px;
-  color: #868b8e; }
+  color: black; }
   .content h3 {
     font-size: 30px; }
+  .content li {
+    line-height: 45px; }
   .content .description {
     line-height: 40px;
     margin: 25px 0px;

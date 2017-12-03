@@ -76,10 +76,14 @@
 
 .content {
 	font-size: 25px;
-	color: #868b8e;
+	color: black;
 
 	h3 {
 		font-size: 30px;
+	}
+
+	li {
+		line-height: 45px;
 	}
 
 	.description {
