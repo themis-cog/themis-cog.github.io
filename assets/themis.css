@@ -1,0 +1,54 @@
+/* some custom class */
+.page {
+  width: 90%;
+  margin: 0px auto; }
+
+/* Header css */
+.header {
+  min-height: 320px;
+  background-image: url("data1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .header .navbar {
+    margin-bottom: 0;
+    border: 0;
+    border-bottom: 1px solid #bcc1c7;
+    font-size: 16px;
+    border-radius: 0;
+    position: sticky;
+    top: 0;
+    z-index: 1; }
+    .header .navbar .navbar-brand {
+      font-size: 20px;
+      color: white; }
+  .header .navbar-inverse {
+    background-color: #868b8e; }
+    .header .navbar-inverse .navbar-nav li a {
+      color: white; }
+      .header .navbar-inverse .navbar-nav li a:hover {
+        color: #6d6f73;
+        background-color: white; }
+    .header .navbar-inverse .navbar-nav li.active a {
+      color: #6d6f73;
+      background-color: white; }
+  .header .navbar-collapse, .header .navbar-toggle {
+    border-color: white; }
+  .header .navbar-toggle:hover, .header .navbar-toggle:focus {
+    background-color: transparent; }
+  .header .project-name {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin: 90px 0 0 0; }
+
+/* Content css */
+.content {
+  font-size: 15px;
+  color: #868b8e; }
+  .content .description {
+    line-height: 40px;
+    font-size: 25px;
+    margin: 25px 0px;
+    text-align: justify; }
+
+/*# sourceMappingURL=themis.css.map */

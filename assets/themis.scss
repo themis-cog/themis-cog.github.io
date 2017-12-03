@@ -1,0 +1,87 @@
+/* some custom class */
+
+.page {
+	width: 90%;
+	margin: 0px auto;
+}
+
+/* Header css */
+
+.header {
+	min-height: 320px;
+	background-image: url('data1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	.navbar {
+		margin-bottom: 0;
+		border: 0;
+		border-bottom: 1px solid #bcc1c7;
+		font-size: 16px;
+		border-radius: 0;
+
+		position: sticky;
+	    top: 0;
+	    z-index: 1;
+
+		.navbar-brand {
+			font-size: 20px;
+			color: white;
+		}
+	}
+
+	.navbar-inverse {
+		background-color: #868b8e;
+
+		.navbar-nav {
+			li {
+				a {
+					color: white;
+
+					&:hover {
+						color: #6d6f73;
+						background-color: white;
+					}
+				}
+			}
+
+			li.active {
+				a {
+					color: #6d6f73;
+					background-color: white;
+				}
+			}
+		}
+	}
+
+	.navbar-collapse, .navbar-toggle {
+		border-color: white;
+	}
+
+	.navbar-toggle {
+		&:hover, &:focus {
+			background-color: transparent;
+		}
+	}
+
+	.project-name {
+	    text-align: center;
+	    color: white;
+	    font-size: 50px;
+	    margin: 90px 0 0 0;
+	}
+}
+
+/* Content css */
+
+.content {
+	font-size: 15px;
+	color: #868b8e;
+
+	.description {
+	    line-height: 40px;
+	    font-size: 25px;
+	    margin: 25px 0px;
+	    text-align: justify;
+	}
+}
