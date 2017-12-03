@@ -9,14 +9,13 @@
 
 .header {
 	min-height: 320px;
-	background-image: url('data1.jpg');
+	background-image: url('data.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 
 	.navbar {
 		margin-bottom: 0;
 		border: 0;
-		border-bottom: 1px solid #bcc1c7;
 		font-size: 16px;
 		border-radius: 0;
 
@@ -31,7 +30,7 @@
 	}
 
 	.navbar-inverse {
-		background-color: #868b8e;
+		background-color: #414a52;
 
 		.navbar-nav {
 			li {
@@ -89,6 +88,6 @@
 	.description {
 	    line-height: 40px;
 	    margin: 25px 0px;
-	    text-align: justify;
+	    text-align: left;
 	}
 }

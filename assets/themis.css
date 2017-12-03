@@ -6,13 +6,12 @@
 /* Header css */
 .header {
   min-height: 320px;
-  background-image: url("data1.jpg");
+  background-image: url("data.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
   .header .navbar {
     margin-bottom: 0;
     border: 0;
-    border-bottom: 1px solid #bcc1c7;
     font-size: 16px;
     border-radius: 0;
     position: sticky;
@@ -22,7 +21,7 @@
       font-size: 20px;
       color: white; }
   .header .navbar-inverse {
-    background-color: #868b8e; }
+    background-color: #414a52; }
     .header .navbar-inverse .navbar-nav li a {
       color: white; }
       .header .navbar-inverse .navbar-nav li a:hover {
@@ -52,6 +51,6 @@
   .content .description {
     line-height: 40px;
     margin: 25px 0px;
-    text-align: justify; }
+    text-align: left; }
 
 /*# sourceMappingURL=themis.css.map */
