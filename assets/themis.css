@@ -29,10 +29,10 @@ div#particles-js {
     .header .navbar-inverse .navbar-nav li a {
       color: white; }
       .header .navbar-inverse .navbar-nav li a:hover {
-        color: #6d6f73;
+        color: #1e2021;
         background-color: white; }
     .header .navbar-inverse .navbar-nav li.active a {
-      color: #6d6f73;
+      color: #1e2021;
       background-color: white; }
   .header .navbar-collapse, .header .navbar-toggle {
     border-color: white; }
