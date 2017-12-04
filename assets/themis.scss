@@ -5,13 +5,18 @@
 	margin: 0px auto;
 }
 
+div#particles-js {
+    height: 320px;
+    background-color: #2f3133;
+}
+
 /* Header css */
 
 .header {
-	min-height: 320px;
+	/* min-height: 320px;
 	background-image: url('data.jpg');
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: cover; */
 
 	.navbar {
 		margin-bottom: 0;
@@ -30,7 +35,7 @@
 	}
 
 	.navbar-inverse {
-		background-color: #414a52;
+		background-color: #1e2021;
 
 		.navbar-nav {
 			li {
@@ -67,7 +72,10 @@
 	    text-align: center;
 	    color: white;
 	    font-size: 50px;
-	    margin: 90px 0 0 0;
+	    /* margin: 90px 0 0 0; */
+	    position: absolute;
+	    width: 100%;
+	    top: 155px;
 	}
 }
 
